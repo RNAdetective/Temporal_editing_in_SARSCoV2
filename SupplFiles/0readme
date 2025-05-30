@@ -1,11 +1,12 @@
 Supplementary Materials for: Aiswarya Mukundan Nair, Helen Piontkivska, “SARS-CoV-2 induced dysregulation in ADAR editing patterns persists post viral clearance in individuals with mild COVID-19”
 
 List of supplementary tables and figures:
+
 Supp_Table_1. Supplemental_Table_1A: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Mid-infection samples, filtered for log2Fold Change > |0.58| (Fold Change > 1.5) and an adjusted P value < 0.05. 
 Supplemental_Table_1B: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Post-infection samples, filtered for log2Fold Change > |0.58| (Fold Change > 1.5) and an adjusted P value < 0.05. 
 Supplementary Table 1C: List of interferon stimulated genes differentially expressed mid-SARS-CoV-2 infection compared to pre-infection. 
 
-Supp_Table_2. Supplemental_Table_2A : Reactome pathway over representation (OR) analysis results for genes diffrentially expressed mid-infection compared to pre-infection.
+Supp_Table_2. Supplemental_Table_2A: Reactome pathway over representation (OR) analysis results for genes diffrentially expressed mid-infection compared to pre-infection.
 Supplemental_Table_2B : Reactome pathway over representation (OR) analysis results for genes differentially expressed post-infection compared to pre-infection. 
 
 Supp_Table_3. Supplemental_Table_3A: ADAR1 expression in TPM for each patient across pre-,mid-, and post-infection.
