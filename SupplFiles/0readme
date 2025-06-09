@@ -4,10 +4,13 @@ List of supplementary tables and figures:
 
 Supp_Table_1. Supplemental_Table_1A: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Mid-infection samples, filtered for log2Fold Change > |0.58| (Fold Change > 1.5) and an adjusted P value < 0.05. 
 Supplemental_Table_1B: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Post-infection samples, filtered for log2Fold Change > |0.58| (Fold Change > 1.5) and an adjusted P value < 0.05. 
-Supplementary Table 1C: List of interferon stimulated genes differentially expressed mid-SARS-CoV-2 infection compared to pre-infection. 
+Supplementary Table_1C: List of interferon stimulated genes differentially expressed mid-SARS-CoV-2 infection compared to pre-infection. 
+Supplemental_Table_1D: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Mid-infection samples, filtered for log2Fold Change > |1| (Fold Change > 2) and an adjusted P value < 0.05. 
+Supplemental_Table_1E: DESeq2 differential gene expression analysis results comparing Pre-infection samples to Post-infection samples, filtered for log2Fold Change > |1| (Fold Change > 2) and an adjusted P value < 0.05. 
 
-Supp_Table_2. Supplemental_Table_2A: Reactome pathway over representation (OR) analysis results for genes diffrentially expressed mid-infection compared to pre-infection.
-Supplemental_Table_2B : Reactome pathway over representation (OR) analysis results for genes differentially expressed post-infection compared to pre-infection. 
+Supp_Table_2. Supplemental_Table_2A: Reactome pathway over representation (OR) analysis results for genes differentially expressed mid-infection compared to pre-infection.
+Supplemental_Table_2B: Reactome pathway over representation (OR) analysis results for genes differentially expressed post-infection compared to pre-infection. 
+Supplemental_Table_2C: Reactome pathway over representation (OR) analysis results for genes differentially expressed mid-infection compared to pre-infection (using stricter cut off Log2FC > |1| & adj p value <0.05. 
 
 Supp_Table_3. Supplemental_Table_3A: ADAR1 expression in TPM for each patient across pre-,mid-, and post-infection.
 Supplemental_Table_3B: ADAR2/ADARb1 expression in TPM for each patient across pre-,mid-, and post-infection.
@@ -15,20 +18,23 @@ Supplemental_Table_3C: ADAR3/ADARb2 expression in TPM for each patient across pr
 
 Supp_Table_4. Supplemental_Table_4A: Transcript level ADAR expression as DESeq2 normalized counts. Isoform transcript Ids were retrieved from Ensembl. 
 Supplemental_Table_4B: Transcript level ADAR expression data from DESeq2.
+
 Supp_Table_5. Supplemental_Table_5: Total number of putative ADAR editing sites for each patient across pre-, mid-, and post-infection stages of SARS-CoV-2 infection.
+
 Supp_Table_6. Supplemental_Table_6A: List of sites consistently edited pre-, mid-, and post-infection.
 Supplemental_Table_6B: List of sites uniquely edited pre-, mid-, and post-infection.
-Supplemental_Table_6C: Redi portal annotated pre-infection unique sites.
-Supplemental_Table_6D: Redi portal annotated mid-infection unique sites.
-Supplemental_Table_6E: Redi portal annotated post-infection unique sites. 
+Supplemental_Table_6C: REDIportal annotated pre-infection unique sites.
+Supplemental_Table_6D: REDIportal annotated mid-infection unique sites.
+Supplemental_Table_6E: REDIportal annotated post-infection unique sites. 
 
-Supp_Table_7. Supplemental_Table_7: Reactome pathway over representation (OR) analysis of genes incorporating confirmed unique editing sites mid-infection.
+Supp_Table_7. Supplemental_Table_7: Reactome pathways over representation (OR) analysis of genes incorporating confirmed unique editing sites (A) pre-, (B) mid-, and (C) post-infection.
+
 Supp_Table_8. Supplemental_Table _8: Patient-wise overall ADAR editing levels across pre-, mid-, and post-infection stages of SARS-CoV-2 infection.
 
 Supp_Table_9. Supplemental_Table_9: List of 45 individuals selected from the initial cohort of CHARM dataset with samples available across pre-, mid-, and post-infection stages. 
 
 Supp_Table_10. Supplemental_Table_10: Metrics of analyzed RNA-seq data from Bioproject PRJNA815324; GSE198449 (Sauerwald et al.,2022).
 
-Supplemental Figure1: Alterations in total number of putative ADAR edits mid- and post- infection compared to pre-infection.
+Supplemental Figure 1: Alterations in total number of putative ADAR edits mid- and post- infection compared to pre-infection.
 
-Supplemental Figure2: Elbow plots showing the total number of potential groups based on overall ADAR editing values in individuals post-infection.
+Supplemental Figure 2: Elbow plots showing the total number of potential groups based on overall ADAR editing values in individuals post-infection. 
