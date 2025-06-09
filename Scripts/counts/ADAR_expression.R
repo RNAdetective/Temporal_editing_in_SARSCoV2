@@ -1,3 +1,7 @@
+## This script compares expression of ADARs and ADAR isoforms across stage of SARS-CoV-2 infection. 
+
+## This generates figures 1A, 1B, 1C, 2A, and 2B, and supplementary tables - 3A, 3B, 3C, 4A, and 4B
+
 library(dplyr)
 library(stringr)
 library(ggpubr)
@@ -18,14 +22,14 @@ for (file in file_list) {
     data_list[[file]] <- data
 }
 
-# combine all the above pre-infection count files to a master dataframe
+# Combine all the above pre-infection count files to a master dataframe
 Pre_infection_df <- do.call(rbind, data_list)
 head(Pre_infection_df)
 
 # Add column for infection stage 
 Pre_infection_df <- cbind(Pre_infection_df, "Infection_stage" = "Pre-infection")
 
-# filter ADAR genes 
+# Filter ADAR genes 
 Pre_ADAR1 <- subset(Pre_infection_df, Gene.Name == 'ADAR')
 Pre_ADAR2 <- subset(Pre_infection_df, Gene.Name == 'ADARB1')
 Pre_ADAR3 <- subset(Pre_infection_df, Gene.Name == 'ADARB2')
